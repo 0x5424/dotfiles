@@ -1,0 +1,12 @@
+# Files here will ALWAYS be ignored, even when not included in a project's gitignore.
+
+# Mac OSX Finder hidden files
+.DS_Store
+
+# dotenv
+.env
+.env.production
+.env.staging
+.env.development
+.env.development.local
+

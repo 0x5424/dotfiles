@@ -1,0 +1,10 @@
+[init]
+  defaultBranch = source
+[core]
+  pager = less -FRSX
+  excludesfile = "${HOME}/.gitignore"
+[pull]
+  ff = only
+[includeIf "gitdir:~/src/0x5424/"]
+  path = ~/src/0x5424/.gitconfig
+
